@@ -1,0 +1,16 @@
+
+Name                                            NumberOfCores NumberOfLogicalProcessors
+----                                            ------------- -------------------------
+AMD Ryzen 7 7435HS                                          8                        16
+
+
+
+SMBIOSBIOSVersion ReleaseDate       
+----------------- -----------       
+FA506NCR.304      08.01.2025 3:00:00
+
+
+
+VirtualizationFirmwareEnabled
+-----------------------------
+                         True
