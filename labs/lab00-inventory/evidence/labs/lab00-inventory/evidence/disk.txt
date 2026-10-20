@@ -1,0 +1,13 @@
+
+Model                         InterfaceType
+-----                         -------------
+WD PC SN740 SDDPNQD-512G-1102 SCSI         
+
+
+
+DriveLetter FileSystemLabel  SizeRemaining         Size
+----------- ---------------  -------------         ----
+          D Ubuntu-Server 26             0   2922250240
+                                  71224320    100663296
+          C                   441227980800 511987150848
+
