@@ -1,0 +1,7 @@
+
+  Capacity Speed DeviceLocator
+  -------- ----- -------------
+8589934592  5600 DIMM 0       
+8589934592  5600 DIMM 0       
+
+
