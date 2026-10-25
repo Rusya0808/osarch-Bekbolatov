@@ -2,7 +2,7 @@
 
 
 
-Pair: ВашаФамилия / ФамилияНапарника   Driver first half: ВашаФамилия
+Pair: Bekbolatov   Driver first half: Bekbolatov
 
 Machine: Host OS Windows 11, Guests Ubuntu 24.04 and Windows 11
 
