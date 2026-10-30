@@ -1,0 +1,280 @@
+﻿**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20261030230610
+Имя пользователя: DESKTOP-I9O0DMP\user
+Запуск от имени пользователя: DESKTOP-I9O0DMP\user
+Имя конфигурации: 
+Компьютер: DESKTOP-I9O0DMP (Microsoft Windows NT 10.0.22621.0)
+Ведущее приложение: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ИД процесса: 4868
+PSVersion: 5.1.22621.4249
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4249
+BuildVersion: 10.0.22621.4249
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл windows-specs.txt
+PS C:\Users\user\Desktop\osarch-Bekbolatov\labs\lab03-teardown\evidence> Get-CimInstance Win32_Processor | Format-List *
+
+
+Availability                            : 3
+CpuStatus                               : 1
+CurrentVoltage                          : 12
+DeviceID                                : CPU0
+ErrorCleared                            :
+ErrorDescription                        :
+LastErrorCode                           :
+LoadPercentage                          : 1
+Status                                  : OK
+StatusInfo                              : 3
+AddressWidth                            : 64
+DataWidth                               : 64
+ExtClock                                : 100
+L2CacheSize                             : 4096
+L2CacheSpeed                            :
+MaxClockSpeed                           : 3100
+PowerManagementSupported                : False
+ProcessorType                           : 3
+Revision                                : 17409
+SocketDesignation                       : FP7r2
+Version                                 : Модель 4, выпуск 1
+VoltageCaps                             :
+Caption                                 : AMD64 Family 25 Model 68 Stepping 1
+Description                             : AMD64 Family 25 Model 68 Stepping 1
+InstallDate                             :
+Name                                    : AMD Ryzen 7 7435HS
+ConfigManagerErrorCode                  :
+ConfigManagerUserConfig                 :
+CreationClassName                       : Win32_Processor
+PNPDeviceID                             :
+PowerManagementCapabilities             :
+SystemCreationClassName                 : Win32_ComputerSystem
+SystemName                              : DESKTOP-I9O0DMP
+CurrentClockSpeed                       : 3100
+Family                                  : 107
+OtherFamilyDescription                  :
+Role                                    : CPU
+Stepping                                : 1
+UniqueId                                :
+UpgradeMethod                           : 6
+Architecture                            : 9
+AssetTag                                : Unknown
+Characteristics                         : 252
+L3CacheSize                             : 16384
+L3CacheSpeed                            : 0
+Level                                   : 25
+Manufacturer                            : AuthenticAMD
+NumberOfCores                           : 8
+NumberOfEnabledCore                     : 8
+NumberOfLogicalProcessors               : 16
+PartNumber                              : Unknown
+ProcessorId                             : 178BFBFF00A40F41
+SecondLevelAddressTranslationExtensions : True
+SerialNumber                            : Unknown
+ThreadCount                             : 16
+VirtualizationFirmwareEnabled           : True
+VMMonitorModeExtensions                 : True
+PSComputerName                          :
+CimClass                                : root/cimv2:Win32_Processor
+CimInstanceProperties                   : {Caption, Description, InstallDate, Name...}
+CimSystemProperties                     : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+PS C:\Users\user\Desktop\osarch-Bekbolatov\labs\lab03-teardown\evidence> Get-CimInstance Win32_PhysicalMemory | Format-List *
+
+
+Caption               : Физическая память
+Description           : Физическая память
+InstallDate           :
+Name                  : Физическая память
+Status                :
+CreationClassName     : Win32_PhysicalMemory
+Manufacturer          : Micron Technology
+Model                 :
+OtherIdentifyingInfo  :
+PartNumber            : MTC4C10163S1SC56BD1
+PoweredOn             :
+SerialNumber          : XXXX
+SKU                   :
+Tag                   : Physical Memory 0
+Version               :
+HotSwappable          :
+Removable             :
+Replaceable           :
+FormFactor            : 12
+BankLabel             : P0 CHANNEL A
+Capacity              : 8589934592
+DataWidth             : 64
+InterleavePosition    :
+MemoryType            : 0
+PositionInRow         :
+Speed                 : 5600
+TotalWidth            : 64
+Attributes            : 1
+ConfiguredClockSpeed  : 4800
+ConfiguredVoltage     : 1100
+DeviceLocator         : DIMM 0
+InterleaveDataDepth   :
+MaxVoltage            : 1100
+MinVoltage            : 1100
+SMBIOSMemoryType      : 34
+TypeDetail            : 16512
+PSComputerName        :
+CimClass              : root/cimv2:Win32_PhysicalMemory
+CimInstanceProperties : {Caption, Description, InstallDate, Name...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProper
+                        ties
+
+Caption               : Физическая память
+Description           : Физическая память
+InstallDate           :
+Name                  : Физическая память
+Status                :
+CreationClassName     : Win32_PhysicalMemory
+Manufacturer          : Micron Technology
+Model                 :
+OtherIdentifyingInfo  :
+PartNumber            : MTC4C10163S1SC56BD1
+PoweredOn             :
+SerialNumber          : XXXX
+SKU                   :
+Tag                   : Physical Memory 1
+Version               :
+HotSwappable          :
+Removable             :
+Replaceable           :
+FormFactor            : 12
+BankLabel             : P0 CHANNEL B
+Capacity              : 8589934592
+DataWidth             : 64
+InterleavePosition    :
+MemoryType            : 0
+PositionInRow         :
+Speed                 : 5600
+TotalWidth            : 64
+Attributes            : 1
+ConfiguredClockSpeed  : 4800
+ConfiguredVoltage     : 1100
+DeviceLocator         : DIMM 0
+InterleaveDataDepth   :
+MaxVoltage            : 1100
+MinVoltage            : 1100
+SMBIOSMemoryType      : 34
+TypeDetail            : 16512
+PSComputerName        :
+CimClass              : root/cimv2:Win32_PhysicalMemory
+CimInstanceProperties : {Caption, Description, InstallDate, Name...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProper
+                        ties
+
+
+
+PS C:\Users\user\Desktop\osarch-Bekbolatov\labs\lab03-teardown\evidence> Get-PhysicalDisk | Format-List *
+
+
+ClassName                        : MSFT_PhysicalDisk
+Usage                            : Auto-Select
+OperationalStatus                : OK
+UniqueIdFormat                   : SCSI Name String
+HealthStatus                     : Healthy
+BusType                          : NVMe
+CannotPoolReason                 : Insufficient Capacity
+SupportedUsages                  : {Auto-Select, Manual-Select, Hot Spare,
+                                   Retired...}
+MediaType                        : SSD
+SpindleSpeed                     : 0
+ObjectId                         : {1}\\DESKTOP-I9O0DMP\root/Microsoft/Wind
+                                   ows/Storage/Providers_v2\SPACES_Physical
+                                   Disk.ObjectId="{c0b1c662-ca30-11f1-9ff9-
+                                   806e6f6e6963}:PD:{218dc9a0-5d04-42d0-6f0
+                                   d-0e2d8e13d702}"
+PassThroughClass                 :
+PassThroughIds                   :
+PassThroughNamespace             :
+PassThroughServer                :
+UniqueId                         : eui.E8238FA6BF530001001B448B47B6D520
+Description                      :
+FriendlyName                     : WD PC SN740 SDDPNQD-512G-1102
+Manufacturer                     :
+Model                            : WD PC SN740 SDDPNQD-512G-1102
+OperationalDetails               :
+PhysicalLocation                 : Integrated : Bus 4 : Device 0 : Function
+                                    0 : Adapter 0
+SerialNumber                     : XXXX
+AdapterSerialNumber              : 24084Q802353        _0000
+AllocatedSize                    : 512110190592
+CanPool                          : False
+DeviceId                         : 0
+EnclosureNumber                  :
+FirmwareVersion                  : 73113000
+FruId                            : 24084Q802353
+IsIndicationEnabled              : False
+IsPartial                        : True
+LogicalSectorSize                : 512
+OtherCannotPoolReasonDescription :
+PartNumber                       :
+PhysicalSectorSize               : 4096
+Size                             : 512110190592
+SlotNumber                       :
+SoftwareVersion                  :
+StoragePoolUniqueId              :
+VirtualDiskFootprint             : 0
+PSComputerName                   :
+CimClass                         : root/microsoft/windows/storage:MSFT_Phys
+                                   icalDisk
+CimInstanceProperties            : {ObjectId, PassThroughClass, PassThrough
+                                   Ids, PassThroughNamespace...}
+CimSystemProperties              : Microsoft.Management.Infrastructure.CimS
+                                   ystemProperties
+
+
+
+PS C:\Users\user\Desktop\osarch-Bekbolatov\labs\lab03-teardown\evidence> Get-CimInstance Win32_BaseBoard | Format-List *
+
+
+Status                  : OK
+Name                    : Основная плата
+PoweredOn               : True
+Caption                 : Основная плата
+Description             : Основная плата
+InstallDate             :
+CreationClassName       : Win32_BaseBoard
+Manufacturer            : ASUSTeK COMPUTER INC.
+Model                   :
+OtherIdentifyingInfo    :
+PartNumber              :
+SerialNumber            : XXXX
+SKU                     :
+Tag                     : Base Board
+Version                 : 1.0
+Depth                   :
+Height                  :
+HotSwappable            : False
+Removable               : False
+Replaceable             : True
+Weight                  :
+Width                   :
+HostingBoard            : True
+RequirementsDescription :
+RequiresDaughterBoard   : False
+SlotLayout              :
+SpecialRequirements     :
+ConfigOptions           : {Default string}
+Product                 : FA506NCR
+PSComputerName          :
+CimClass                : root/cimv2:Win32_BaseBoard
+CimInstanceProperties   : {Caption, Description, InstallDate, Name...}
+CimSystemProperties     : Microsoft.Management.Infrastructure.CimSystemProp
+                          erties
+
+
+
+PS C:\Users\user\Desktop\osarch-Bekbolatov\labs\lab03-teardown\evidence> Stop-Transcript
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20261030230716
+**********************
