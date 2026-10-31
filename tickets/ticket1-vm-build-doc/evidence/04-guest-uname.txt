@@ -1,0 +1,1 @@
+Linux rusya 6.8.0-38-generic #38-Ubuntu SMP PREEMPT_DYNAMIC x86_64 GNU/Linux
