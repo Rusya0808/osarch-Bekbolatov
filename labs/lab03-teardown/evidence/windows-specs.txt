@@ -270,6 +270,74 @@ CimClass                : root/cimv2:Win32_BaseBoard
 CimInstanceProperties   : {Caption, Description, InstallDate, Name...}
 CimSystemProperties     : Microsoft.Management.Infrastructure.CimSystemProp
                           erties
+AdminPasswordStatus         : 3
+BootupState                 : Normal boot
+ChassisBootupState          : 3
+KeyboardPasswordStatus      : 3
+PowerOnPasswordStatus       : 3
+PowerSupplyState            : 3
+PowerState                  : 0
+FrontPanelResetStatus       : 3
+ThermalState                : 3
+Status                      : OK
+Name                        : DESKTOP-I9O0DMP
+PowerManagementCapabilities :
+PowerManagementSupported    :
+Caption                     : DESKTOP-I9O0DMP
+Description                 : AT/AT COMPATIBLE
+InstallDate                 :
+CreationClassName           : Win32_ComputerSystem
+NameFormat                  :
+PrimaryOwnerContact         :
+PrimaryOwnerName            : user
+Roles                       : {LM_Workstation, LM_Server, NT}
+InitialLoadInfo             :
+LastLoadInfo                :
+ResetCapability             : 1
+AutomaticManagedPagefile    : True
+AutomaticResetBootOption    : False
+AutomaticResetCapability    : True
+BootOptionOnLimit           :
+BootOptionOnWatchDog        :
+BootROMSupported            : True
+BootStatus                  : {0, 0, 0, 0...}
+ChassisSKUNumber            : Default string
+CurrentTimeZone             : 180
+DaylightInEffect            :
+DNSHostName                 : DESKTOP-I9O0DMP
+Domain                      : WORKGROUP
+DomainRole                  : 0
+EnableDaylightSavingsTime   : True
+HypervisorPresent           : False
+InfraredSupported           : False
+Manufacturer                : ASUSTeK COMPUTER INC.
+Model                       : ASUS TUF Gaming A15 FA506NCR_FA506NCR
+NetworkServerModeEnabled    : True
+NumberOfLogicalProcessors   : 16
+NumberOfProcessors          : 1
+OEMLogoBitmap               :
+OEMStringArray              : {  ,  ,  ,  ...}
+PartOfDomain                : False
+PauseAfterReset             : -1
+PCSystemType                : 2
+PCSystemTypeEx              : 2
+ResetCount                  : -1
+ResetLimit                  : -1
+SupportContactDescription   :
+SystemFamily                : ASUS TUF Gaming A15
+SystemSKUNumber             :
+SystemStartupDelay          :
+SystemStartupOptions        :
+SystemStartupSetting        :
+SystemType                  : x64-based PC
+TotalPhysicalMemory         : 16989732864
+UserName                    : DESKTOP-I9O0DMP\user
+WakeUpType                  : 6
+Workgroup                   : WORKGROUP
+PSComputerName              :
+CimClass                    : root/cimv2:Win32_ComputerSystem
+CimInstanceProperties       : {Caption, Description, InstallDate, Name...}
+CimSystemProperties         : Microsoft.Management.Infrastructure.CimSystemProperties
 
 
 
