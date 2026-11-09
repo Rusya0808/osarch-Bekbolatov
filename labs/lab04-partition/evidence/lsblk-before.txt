@@ -1,0 +1,10 @@
+NAME                      SIZE TYPE FSTYPE      MOUNTPOINT
+sda                        25G disk
+├─sda1                      1M part
+├─sda2                      2G part ext4        /boot
+└─sda3                     23G part LVM2_member
+  └─ubuntu--vg-ubuntu--lv  11G lvm  ext4        /
+sdb                         2G disk
+sdc                         2G disk
+sdd                         2G disk
+```[cite: 4]
