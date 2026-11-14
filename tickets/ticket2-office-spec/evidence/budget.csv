@@ -1,0 +1,31 @@
+role,component,model,price KZT,source,date
+Accountant,CPU,Intel Core i3-12100,48000,kaspi.kz,15.11.2026
+Accountant,Motherboard,MSI PRO H610M-E,35000,kaspi.kz,15.11.2026
+Accountant,RAM,Kingston FURY 16GB (2x8) DDR4,21000,kaspi.kz,15.11.2026
+Accountant,SSD,Kingston NV2 1TB M.2,33000,kaspi.kz,15.11.2026
+Accountant,Case & PSU,AeroCool CS-107 + 500W,25000,kaspi.kz,15.11.2026
+Accountant,Monitor,LG 24MP400-B 24" IPS,55000,kaspi.kz,15.11.2026
+Accountant,OS,Windows 11 Pro,75000,kaspi.kz,15.11.2026
+Sales,CPU,AMD Ryzen 5 5600G,65000,kaspi.kz,15.11.2026
+Sales,Motherboard,GIGABYTE B550M DS3H,45000,kaspi.kz,15.11.2026
+Sales,RAM,Kingston FURY 32GB (2x16) DDR4,38000,kaspi.kz,15.11.2026
+Sales,SSD,Kingston NV2 1TB M.2,33000,kaspi.kz,15.11.2026
+Sales,Case & PSU,DeepCool Matrexx 30 + 500W,30000,kaspi.kz,15.11.2026
+Sales,Monitor,LG 24MP400-B 24" IPS,55000,kaspi.kz,15.11.2026
+Sales,OS,Windows 11 Pro,75000,kaspi.kz,15.11.2026
+Web Developer,CPU,Intel Core i7-13700,170000,kaspi.kz,15.11.2026
+Web Developer,Motherboard,GIGABYTE B760M DS3H,75000,kaspi.kz,15.11.2026
+Web Developer,RAM,Kingston FURY 64GB (2x32) DDR5,115000,kaspi.kz,15.11.2026
+Web Developer,SSD,Samsung 980 1TB M.2,45000,kaspi.kz,15.11.2026
+Web Developer,GPU,NVIDIA GeForce RTX 4060 Ti 8GB,220000,kaspi.kz,15.11.2026
+Web Developer,Cooler Case & PSU,DeepCool CH510 + 750W + AK620,85000,kaspi.kz,15.11.2026
+Web Developer,Monitor,Dell 27" 2K IPS,140000,kaspi.kz,15.11.2026
+Web Developer,OS,Windows 11 Pro,75000,kaspi.kz,15.11.2026
+Designer,CPU,Intel Core i5-13600K,140000,kaspi.kz,15.11.2026
+Designer,Motherboard,MSI B760 TOMAHAWK WIFI,95000,kaspi.kz,15.11.2026
+Designer,RAM,Kingston FURY 32GB (2x16) DDR5,65000,kaspi.kz,15.11.2026
+Designer,SSD,Samsung 980 PRO 1TB M.2,55000,kaspi.kz,15.11.2026
+Designer,GPU,NVIDIA GeForce RTX 4070 12GB,340000,kaspi.kz,15.11.2026
+Designer,Case & PSU,NZXT H5 Flow + 750W Gold,85000,kaspi.kz,15.11.2026
+Designer,Monitor,ASUS ProArt 27" 4K IPS,220000,kaspi.kz,15.11.2026
+Designer,OS,Windows 11 Pro,75000,kaspi.kz,15.11.2026
