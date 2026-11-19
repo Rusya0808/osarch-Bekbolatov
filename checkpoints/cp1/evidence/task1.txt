@@ -92,4 +92,7 @@ DriveLetter FriendlyName FileSystemType DriveType HealthStatus OperationalStatus
                          FAT32          Fixed     Healthy      OK                     67.92 MB     96 MB
 C                        NTFS           Fixed     Healthy      OK                    137.65 GB 476.83 GB
 
-
+Number         : 0
+FriendlyName   : WD PC SN740 SDDPNQD-512G-1102
+PartitionStyle : GPT
+BusType        : NVMe
