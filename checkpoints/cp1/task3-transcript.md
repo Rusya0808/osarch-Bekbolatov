@@ -1,0 +1,1 @@
+﻿Task 3: 00-README.txt -> mapped files; dead end /var/log space ok; check updated script/unit. Fix: sudo systemctl daemon-reload; sudo systemctl enable --now nightly-report.timer. Verify: systemctl status nightly-report.service; ls -lh /var/log/nightly-report.log; sudo reboot.
